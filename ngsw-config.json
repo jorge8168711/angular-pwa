@@ -10,6 +10,11 @@
           "/index.html",
           "/*.css",
           "/*.js"
+        ],
+        "urls": [
+          "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
+          "http://i.annihil.us/u/prod/marvel/**",
+          "https://fonts.gstatic.com/**"
         ]
       }
     },
@@ -22,6 +27,21 @@
           "/assets/**",
           "/*.(eot|svg|cur|jpg|png|webp|gif|otf|ttf|woff|woff2|ani)"
         ]
+      }
+    }
+  ],
+  "dataGroups": [
+    {
+      "name": "characters",
+      "urls": [
+        "https://gateway.marvel.com:443/v1/public/characters",
+        "http://i.annihil.us/u/prod/marvel/**"
+      ],
+      "cacheConfig": {
+        "maxSize": "2000",
+        "maxAge": "2d",
+        "timeOut": "10s",
+        "strategy": "freshness"
       }
     }
   ]
