@@ -1,11 +1,13 @@
 {
-  "name": "angular-pwa",
-  "short_name": "angular-pwa",
-  "theme_color": "#1976d2",
-  "background_color": "#fafafa",
+  "name": "Angular PWA",
+  "short_name": "APWA",
+  "theme_color": "#EEE",
+  "background_color": "#EEE",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",
+  "orientation": "portrait",
+  "description": "Angular PWA test!!!",
   "icons": [
     {
       "src": "assets/icons/icon-72x72.png",
