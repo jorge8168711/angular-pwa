@@ -1,16 +1,18 @@
 <div class="cards-container">
   <header class="header">
-    <h1>Characters</h1>
+    <h1>Users</h1>
   </header>
 
   <p *ngIf="loading">loading...</p>
 
-  <article class="card" *ngFor="let item of data['results']">
-    <img class="card-image" [src]="getImageUrl(item)">
+  <article class="card" *ngFor="let user of data">
+    <img class="card-image" src="/assets/technology-792180_1280.jpg">
 
-    <h2 class="card-title">{{ item.name }}</h2>
-    <p class="card-description">{{ item.description || 'N/A' }}</p>
+    <h2 class="card-title">{{ user.name }}</h2>
+    <p class="card-description"><strong>Email: </strong>{{ user.email || 'N/A' }}</p>
+    <p class="card-description"><strong>Company: </strong>{{ user.company.name || 'N/A' }}</p>
+    <p class="card-description">
+      <strong>Address: </strong>
+      {{ user.address.street + ', ' + user.address.suite + ', ' + user.address.city || 'N/A' }}</p>
   </article>
 </div>
-
-

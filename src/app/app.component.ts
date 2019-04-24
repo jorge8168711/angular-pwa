@@ -12,17 +12,14 @@ import { Data, Result } from './interfaces';
 export class AppComponent implements OnInit {
   public data = [];
   public loading = false;
-  private baseUrl = 'https://gateway.marvel.com:443/v1/public/';
-  private path = 'characters';
-  private key = '35591db06a438788c7c8fcaab330df1a';
 
   constructor(private httpClient: HttpClient) {}
 
   ngOnInit(): void {
     this.loading = true;
-    this.httpClient.get<Response>(`${this.baseUrl}/characters?apikey=${this.key}`).toPromise()
-      .then((res: Response) => {
-        this.data = res['data'];
+    this.httpClient.get<any>('https://jsonplaceholder.typicode.com/users').toPromise()
+      .then((res) => {
+        this.data = res;
         console.log(res, this.data);
         this.loading = false;
       })

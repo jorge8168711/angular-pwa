@@ -13,8 +13,8 @@
         ],
         "urls": [
           "https://fonts.googleapis.com/css?family=Noto+Sans:400,700",
-          "http://i.annihil.us/u/prod/marvel/**",
-          "https://fonts.gstatic.com/**"
+          "https://fonts.gstatic.com/**",
+          "https://cdn.pixabay.com/**"
         ]
       }
     },
@@ -32,15 +32,14 @@
   ],
   "dataGroups": [
     {
-      "name": "characters",
+      "name": "users",
       "urls": [
-        "https://gateway.marvel.com:443/v1/public/characters",
-        "http://i.annihil.us/u/prod/marvel/**"
+        "https://jsonplaceholder.typicode.com/users"
       ],
       "cacheConfig": {
-        "maxSize": "2000",
+        "maxSize": 10,
         "maxAge": "2d",
-        "timeOut": "10s",
+        "timeout": "10s",
         "strategy": "freshness"
       }
     }
