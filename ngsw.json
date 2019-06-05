@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1559770075937,
+  "timestamp": 1559770590257,
   "index": "https://jorge8168711.github.io/angular-pwa/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "https://jorge8168711.github.io/angular-pwa/es2015-polyfills.1e04665e16f944715fd2.js",
         "https://jorge8168711.github.io/angular-pwa/favicon.ico",
         "https://jorge8168711.github.io/angular-pwa/index.html",
-        "https://jorge8168711.github.io/angular-pwa/main.206c9a7c4b921b5159d3.js",
+        "https://jorge8168711.github.io/angular-pwa/main.a1a17b15970fc4d7bd81.js",
         "https://jorge8168711.github.io/angular-pwa/polyfills.8bbb231b43165d65d357.js",
         "https://jorge8168711.github.io/angular-pwa/runtime.26209474bfa8dc87a77c.js",
         "https://jorge8168711.github.io/angular-pwa/styles.94064b1e9faa1bca86b6.css"
@@ -65,8 +65,8 @@
     "https://jorge8168711.github.io/angular-pwa/assets/technology-792180_1280.jpg": "5d3bd8a49a11b56e6d6ec9331c312c4d5c87fa93",
     "https://jorge8168711.github.io/angular-pwa/es2015-polyfills.1e04665e16f944715fd2.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://jorge8168711.github.io/angular-pwa/favicon.ico": "35c46e4ed897056b357d4636bd7bb6bfb9691863",
-    "https://jorge8168711.github.io/angular-pwa/index.html": "8a5c487eb51e4aa8de3173f5315b7cf83223f5a5",
-    "https://jorge8168711.github.io/angular-pwa/main.206c9a7c4b921b5159d3.js": "9809f4a38f514cc5ae7d79a07f68c9c7c0e91248",
+    "https://jorge8168711.github.io/angular-pwa/index.html": "78ffe88ca59249ec39cfed17fa67eab3a7dfb13a",
+    "https://jorge8168711.github.io/angular-pwa/main.a1a17b15970fc4d7bd81.js": "8fbe12f3cdeab656ed7de7be94780fa7b9d92bf0",
     "https://jorge8168711.github.io/angular-pwa/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "https://jorge8168711.github.io/angular-pwa/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://jorge8168711.github.io/angular-pwa/styles.94064b1e9faa1bca86b6.css": "0d46ff55b83d16a89b7fac78d17e17cf7bc5a87f"
