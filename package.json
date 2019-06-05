@@ -7,7 +7,8 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "e2e": "ng e2e"
+    "e2e": "ng e2e",
+    "gh-deploy": "ng build --prod --aot --base-href=\"https://jorge8168711.github.io/angular-pwa/\" && gh-pages -d dist/angular-pwa"
   },
   "private": true,
   "dependencies": {
